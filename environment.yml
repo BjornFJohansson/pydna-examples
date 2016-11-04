@@ -1,0 +1,10 @@
+name: freshpydna
+channels: !!python/tuple
+- defaults
+- anaconda
+- conda-forge
+- BjornFJohansson
+- aaren
+- acellera
+dependencies:
+- pydna
