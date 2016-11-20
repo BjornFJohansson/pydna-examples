@@ -1,11 +1,7 @@
-name: freshpydna
-channels: !!python/tuple
+name: mybinder_pydna
+channels:
 - defaults
-- anaconda
-- conda-forge
 - BjornFJohansson
-- aaren
-- acellera
 dependencies:
 - python=3.5
 - pydna
