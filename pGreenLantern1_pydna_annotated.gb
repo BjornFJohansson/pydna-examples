@@ -1,41 +1,138 @@
-LOCUS       pGreenLantern1          5032 bp    DNA     circular UNK 22-NOV-2016
+LOCUS       pGreenLantern1          5032 bp ds-DNA     circular     22-NOV-2016
 DEFINITION  @
 ACCESSION   -
 VERSION     -
 KEYWORDS    .
 SOURCE      .
-  ORGANISM  .
-            .
+  ORGANISM  . .
+COMMENT     
+COMMENT     ApEinfo:methylated:1
 FEATURES             Location/Qualifiers
      source          4314..5030
                      /db_xref="taxon:32630"
                      /mol_type="mRNA"
                      /organism="synthetic construct"
+                     /label=source:synthetic construct
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
      gene            4314..5030
                      /gene="GFP"
+                     /label=GFP
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
      CDS             4314..5030
                      /codon_start=1
                      /gene="GFP"
                      /note="90 codons of this gene sequence, originally from
                      Aequorea victoria, have been altered to be more compatible
-                     with human codon usage; the protein sequence of GFP remains
-                     identical to that of A. victoria"
+                     with human codon usage; the protein sequence of GFP
+                     remains identical to that of A. victoria"
                      /product="green fluorescent protein"
                      /protein_id="AAB17129.1"
                      /transl_table=11
-                     /translation="MSKGEELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTLK
-                     FICTTGKLPVPWPTLVTTFSYGVQCFSRYPDHMKQHDFFKSAMPEGYVQERTIFFKDDG
-                     NYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYNSHNVYIMADKQKNGIKV
-                     NFKIRHNIEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSALSKDPNEKRDHMVLLE
-                     FVTAAGITHGMDELYK"
+                     /translation="MSKGEELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTL
+                     K
+                     FICTTGKLPVPWPTLVTTFSYGVQCFSRYPDHMKQHDFFKSAMPEGYVQERTIFFKDD
+                     G
+                     NYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYNSHNVYIMADKQKNGIK
+                     V
+                     NFKIRHNIEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSALSKDPNEKRDHMVLL
+                     E FVTAAGITHGMDELYK"
+                     /label=green fluorescent protein
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
      primer_bind     4314..4334
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
                      /note="upstream_primer"
-     primer_bind     complement(5010..5030)
+                     /label=upstream_primer
                      /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     complement(5010..5030)
                      /note="downstream_primer"
+                     /label=downstream_primer
+                     /ApEinfo_fwdcolor="green"
+                     /ApEinfo_revcolor="red"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     4220..4242
+                     /label=SP6
+                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     rep_origin      667..973
+                     /label=F1 ori
+                     /ApEinfo_fwdcolor="gray50"
+                     /ApEinfo_revcolor="gray50"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     rep_origin      650..1105
+                     /label=M13 origin
+                     /ApEinfo_fwdcolor="gray50"
+                     /ApEinfo_revcolor="gray50"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     CDS             580..648
+                     /label=LacZ alpha
+                     /ApEinfo_fwdcolor="#6495ed"
+                     /ApEinfo_revcolor="#6495ed"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_binding    3552..3574
+                     /label=LacO
+                     /ApEinfo_fwdcolor="#6495ed"
+                     /ApEinfo_revcolor="#6495ed"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_recomb     complement(2355..2388)
+                     /label=LoxP
+                     /ApEinfo_fwdcolor="steel blue"
+                     /ApEinfo_revcolor="orange"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     CDS             1591..2250
+                     /label=AmpR
+                     /ApEinfo_fwdcolor="yellow"
+                     /ApEinfo_revcolor="yellow"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     polyA_signal    complement(329..520)
+                     /label=SV40 late polyA
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     promoter        3602..4128
+                     /label=CMV promoter
+                     /ApEinfo_fwdcolor="cornflower blue"
+                     /ApEinfo_revcolor="cornflower blue"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    3482..3482
+                     /label=ins3
+                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    1689..1689
+                     /label=ins2
+                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    649..649
+                     /label=ins1
+                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
 ORIGIN
         1 ggccgctcta gcttgggatc tttgtgaagg aaccttactt ctgtggtgtg acataattgg
        61 acaaactacc tacagagatt taaagctcta aggtaaatat aaaattttta agtgtataat
