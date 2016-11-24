@@ -23,3 +23,8 @@ and run the notebooks locally (it will also be faster).
 
 The contents of this repository is released under the MIT [Licence](License.md)
 
+Use this Digital Object Identifier (DOI) when citing this repository.
+
+[![DOI](https://zenodo.org/badge/72821267.svg)](https://zenodo.org/badge/latestdoi/72821267)
+
+
