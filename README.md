@@ -2,6 +2,8 @@
 
 ![saat_cloning_animation](strawberry aat/saat_cloning_animation.gif)
 
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/bjornfjohansson/pydna-examples)
+
 This repository contains Jupyter notebooks and data files 
 that demonstrate how [pydna](https://github.com/BjornFJohansson/pydna/blob/py3dev/README.md) 
 can be used to plan, document and simulate cloning experiments.
