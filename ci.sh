@@ -4,8 +4,8 @@ export PATH="$HOME/miniconda/bin:$PATH"
 rm Miniconda_latest.sh
 conda update -yq conda
 conda config --add channels BjornFJohansson
-conda env create -f test_environment.yml -q
-source activate testenv
+conda env create -f environment.yml -q
+source activate mybinder_pydna
 which python
 python --version
 python run_test.py
