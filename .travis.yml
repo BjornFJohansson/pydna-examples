@@ -4,6 +4,6 @@ cache:
  - pip
  - conda
 script:
- - sh ci.sh
+ - ./ci.sh
 notifications:
   email: false 
