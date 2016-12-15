@@ -28,8 +28,7 @@ and run the notebooks locally (the notebooks will also run faster).
 
 ## Automatic testing
 
-[![Build Status](https://travis-ci.org/BjornFJohansson/pydna-examples.svg?branch=master)](https://travis-ci.org/BjornFJohansson/pydna-examples)
-
+[![Build Status](https://drone.io/github.com/BjornFJohansson/pydna-examples/status.png)](https://drone.io/github.com/BjornFJohansson/pydna-examples/latest)
 
 The contents of this repository is released under the MIT [Licence](License.md)
 

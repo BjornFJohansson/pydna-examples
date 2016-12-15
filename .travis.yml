@@ -1,9 +1,0 @@
-sudo: true
-cache:
- - wget
- - pip
- - conda
-script:
- - ./ci.sh
-notifications:
-  email: false 
