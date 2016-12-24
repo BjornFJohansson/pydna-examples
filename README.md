@@ -6,7 +6,8 @@
 
 This repository contains Jupyter notebooks and data files 
 that demonstrate how [pydna](https://github.com/BjornFJohansson/pydna/blob/py3dev/README.md) 
-can be used to plan, document and simulate cloning experiments.
+can be used to plan, document and simulate cloning experiments. 
+The links below open a static version of each notebook as a web page directly in Github.
 
 * Construction of the [YEp24PGK_XK](simple examples/YEP24_PGK_XK.ipynb) vector using restriction and ligation.
 
@@ -18,14 +19,10 @@ can be used to plan, document and simulate cloning experiments.
 
 * Expression of the [Strawberry aat gene](strawberry aat/strawberry.ipynb) in _Saccharomyces cerevisiae_ using the Yeast Pathway Kit
 
-
 ## Static notebooks
 
-Static versions of the notebooks can be displayed as web pages through [nbviewer](http://nbviewer.jupyter.org/github/BjornFJohansson/pydna-examples/blob/master/index.ipynb).
-
-Example of a notebook located in a [dropbox folder](http://nbviewer.ipython.org/urls/dl.dropboxusercontent.com/u/1263722/served_from_dropbox.ipynb
-). A notebook in a public dropbox folder is not indexed by search engines such as Google. 
-
+Static versions of the notebooks can also be displayed as 
+web pages through [nbviewer](http://nbviewer.jupyter.org/github/BjornFJohansson/pydna-examples/blob/master/index.ipynb).
 
 ## Dynamic notebooks
 
@@ -42,6 +39,19 @@ and run the notebooks locally (the notebooks will also run faster).
 
 The contents of this repository is released under the MIT [Licence](License.md)
 
+## Notebook served from dropbox
+
+Example of a notebook located in a [dropbox folder](http://nbviewer.ipython.org/urls/dl.dropboxusercontent.com/u/1263722/served_from_dropbox.ipynb
+). A notebook in a public dropbox folder is not indexed by search engines such as Google, so if there are no links to it, it will remain hidden. 
+
+
+
+## Citation
+
 Use this Digital Object Identifier (DOI) when citing this repository.
 
 [![DOI](https://zenodo.org/badge/72821267.svg)](https://zenodo.org/badge/latestdoi/72821267)
+
+
+
+
