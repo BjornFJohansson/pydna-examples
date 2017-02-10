@@ -1,0 +1,3 @@
+before_script:
+- bash ci.sh 
+
