@@ -37,9 +37,6 @@ and run the notebooks locally (the notebooks will also run faster).
 
 ## Automatic testing
 
-
-
-
 The contents of this repository is released under the MIT [Licence](License.md)
 
 ## Notebook served from dropbox
