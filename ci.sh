@@ -9,5 +9,5 @@ conda create -q -y -n testenv python=3.5 pydna nbval pytest lxml requests
 source activate testenv
 which python
 python --version
-conda install -channel bjornfjohansson/label/test pydna=1.1.6a12
+conda install -channel BjornFJohansson/label/test pydna=1.1.6a12
 python run_test.py
