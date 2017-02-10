@@ -19,6 +19,8 @@ The links below open a static version of each notebook as a web page directly in
 
 * Expression of the [Strawberry aat gene](strawberry aat/strawberry.ipynb) in _Saccharomyces cerevisiae_ using the Yeast Pathway Kit
 
+* Gibson assembly example [Gibson](gibson/gibson.ipynb)
+
 ## Static notebooks
 
 Static versions of the notebooks can also be displayed as 
