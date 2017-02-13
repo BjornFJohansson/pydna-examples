@@ -1,20 +1,16 @@
-from pydna.genbank import Genbank
-from pydna.design import cloning_primers
-from pydna.amplify import pcr
-from pydna.readers import read
-from pydna.parsers import parse_primers
+from pydna.genbank  import genbank
+from pydna.design   import primer_design
+from pydna.amplify  import pcr
+from pydna.readers  import read
+from pydna.parsers  import parse_primers
 from pydna.assembly import Assembly
-from pydna.gel import Gel
+from pydna.gel      import Gel
 
-gb=Genbank("bjornjobb@gmail.com")
+###############################################################################
 
-saat = gb.nucleotide("AF193791 REGION: 78..1895")
+saat = genbank("AF193791 REGION: 78..1895")
 
-fw, rv = cloning_primers(saat, fp_tail="aa")
-
-fw.id, rv.id = "fw_saat_cds", "rv_saat_cds"
-
-saat_pcr_prod = pcr(fw, rv, saat)
+saat_pcr_prod = primer_design(saat)
 
 saat_pcr_prod.figure()
 
