@@ -12,8 +12,6 @@ saat = genbank("AF193791 REGION: 78..1895")
 
 saat_pcr_prod = primer_design(saat)
 
-saat_pcr_prod.figure()
-
 pYPKa=read("pYPKa.gb")
 
 from Bio.Restriction import AjiI
@@ -58,7 +56,6 @@ pYPKpw_lin = pYPKpw.linearize(ZraI)
 asm = Assembly( (pYPKpw_lin, p, g, t) )
 
 candidate = asm.circular_products[0]
-candidate.figure()
 
 pYPK0_TDH3_FaPDC_TEF1 = candidate.synced(pYPKa)
 
