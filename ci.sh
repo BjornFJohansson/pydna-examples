@@ -11,4 +11,6 @@ source activate testenv
 which python
 python --version
 conda install pydna
+
+
 python run_test.py
