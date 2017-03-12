@@ -1,4 +1,4 @@
-before_script:
-- bash ci.sh
+script:
+ - bash ci.sh
 notifications:
   email: false
