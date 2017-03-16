@@ -13,7 +13,7 @@ for dirpath, dirnames, filenames in os.walk(thisdir):
         p = pathlib.Path(os.path.join(dirpath, file_))
         if any( [f for f in p.parts if f.startswith(("_","."))] ): continue    
         os.chdir(dirpath)
-        cmd = "jupyter nbconvert --execute {}".format(file_)
+        cmd = "jupyter nbconvert --execute --inplace {}".format(file_)
         print(cmd)
         subprocess.run(cmd.split())
 print("run_all.py finished.")
