@@ -1,6 +1,6 @@
 # pydna-examples
 
-![saat_cloning_animation](strawberry aat/saat_cloning_animation.gif)
+[![saat_cloning_animation](strawberry aat/saat_cloning_animation.gif)](strawberry aat/strawberry.ipynb)
 
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/bjornfjohansson/pydna-examples)
 
