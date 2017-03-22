@@ -9,15 +9,15 @@ that demonstrate how [pydna](https://github.com/BjornFJohansson/pydna/blob/py3de
 can be used to plan, document and simulate cloning experiments. 
 The links below open a static version of each notebook as a web page directly in Github.
 
-* Construction of the [YEp24PGK_XK](simple examples/YEP24_PGK_XK.ipynb) vector using restriction and ligation.
+* Construction of the [YEp24PGK_XK](simple_examples/YEP24_PGK_XK.ipynb) vector using restriction and ligation.
 
-* Construction of the [pGUP1]("simple examples/pGUP1.ipynb") sequence using _in-vivo_ homologous recombination
+* Construction of the [pGUP1]("simple_examples/pGUP1.ipynb") sequence using _in-vivo_ homologous recombination
 
-* Assembly of the 32 [Mumberg expression vectors](mumberg 32 expression vectors/mumberg_32_vectors.ipynb)
+* Assembly of the 32 [Mumberg expression vectors](mumberg_32_expression vectors/mumberg_32_vectors.ipynb)
 
 * Assembly of the [pGreenLantern-1](pGreenLantern1/pGreenLantern1.ipynb) sequence.
 
-* Expression of the [Strawberry aat gene](strawberry aat/strawberry.ipynb) in _Saccharomyces cerevisiae_ using the Yeast Pathway Kit
+* Expression of the [Strawberry aat gene](strawberry_aat/strawberry.ipynb) in _Saccharomyces cerevisiae_ using the Yeast Pathway Kit
 
 * Gibson assembly example [Gibson](gibson/gibson.ipynb)
 
