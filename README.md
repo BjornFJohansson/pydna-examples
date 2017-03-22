@@ -41,11 +41,6 @@ and run the notebooks locally (the notebooks will also run faster).
 
 The contents of this repository is released under the MIT [Licence](License.md)
 
-## Notebook served from dropbox
-
-Example of a notebook located in a [dropbox folder](http://nbviewer.ipython.org/urls/dl.dropboxusercontent.com/u/1263722/served_from_dropbox.ipynb
-). A notebook in a public dropbox folder is not indexed by search engines such as Google, so if there are no links to it, it will remain hidden. 
-
 ## Citation
 
 Use this Digital Object Identifier (DOI) when citing this repository.
