@@ -11,7 +11,7 @@ The links below open a static version of each notebook as a web page directly in
 
 * Construction of the [YEp24PGK_XK](simple_examples/YEP24_PGK_XK.ipynb) vector using restriction and ligation.
 
-* Construction of the [pGUP1]("simple_examples/pGUP1.ipynb") sequence using _in-vivo_ homologous recombination
+* Construction of the [pGUP1](simple_examples/pGUP1.ipynb) sequence using _in-vivo_ homologous recombination
 
 * Assembly of the 32 [Mumberg expression vectors](mumberg_32_expression_vectors/mumberg_32_vectors.ipynb)
 
