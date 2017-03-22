@@ -13,7 +13,7 @@ The links below open a static version of each notebook as a web page directly in
 
 * Construction of the [pGUP1]("simple_examples/pGUP1.ipynb") sequence using _in-vivo_ homologous recombination
 
-* Assembly of the 32 [Mumberg expression vectors](mumberg_32_expression vectors/mumberg_32_vectors.ipynb)
+* Assembly of the 32 [Mumberg expression vectors](mumberg_32_expression_vectors/mumberg_32_vectors.ipynb)
 
 * Assembly of the [pGreenLantern-1](pGreenLantern1/pGreenLantern1.ipynb) sequence.
 
