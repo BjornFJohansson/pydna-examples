@@ -21,8 +21,6 @@ The links below open a static version of each notebook as a web page directly in
 
 * Gibson assembly example [Gibson](gibson/gibson.ipynb)
 
-## Static notebooks
-
 Static versions of the notebooks can also be displayed as 
 web pages through [nbviewer](http://nbviewer.jupyter.org/github/BjornFJohansson/pydna-examples/blob/master/index.ipynb).
 
