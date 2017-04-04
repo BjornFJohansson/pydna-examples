@@ -19,7 +19,9 @@ The links below open a static version of each notebook as a web page directly in
 
 * Expression of the [Strawberry aat gene](strawberry_aat/strawberry.ipynb) in _Saccharomyces cerevisiae_ using the Yeast Pathway Kit
 
-* Gibson assembly example [Gibson](gibson/gibson.ipynb)
+* [Gibson](gibson/gibson.ipynb) assembly example 
+
+* Golden gate cloning [example](golden_gate/golden_gate1.ipynb)
 
 Static versions of the notebooks can also be displayed as 
 web pages through [nbviewer](http://nbviewer.jupyter.org/github/BjornFJohansson/pydna-examples/blob/master/index.ipynb).
@@ -44,7 +46,3 @@ The contents of this repository is released under the MIT [Licence](License.md)
 Use this Digital Object Identifier (DOI) when citing this repository.
 
 [![DOI](https://zenodo.org/badge/72821267.svg)](https://zenodo.org/badge/latestdoi/72821267)
-
-
-
-
