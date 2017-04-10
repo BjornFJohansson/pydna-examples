@@ -26,6 +26,11 @@ The links below open a static version of each notebook as a web page directly in
 Static versions of the notebooks can also be displayed as 
 web pages through [nbviewer](http://nbviewer.jupyter.org/github/BjornFJohansson/pydna-examples/blob/master/index.ipynb).
 
+
+## Misc examples
+
+* [Primer screening with pydna](http://nbviewer.jupyter.org/github/BjornFJohansson/pydna-examples2/blob/master/primer_screen.ipynb)
+
 ## Dynamic notebooks
 
 Click on the red and black "launch binder" image above to run the notebooks on the cloud service [Mybinder](http://mybinder.org/).
