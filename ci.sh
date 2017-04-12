@@ -7,11 +7,12 @@ rm Miniconda_latest.sh
 conda config --set binstar_upload no --set always_yes yes --set show_channel_urls yes
 conda update conda
 conda config --add channels BjornFJohansson
-conda create -qy -n testenv python=3.5 pydna nbval pytest lxml requests
+conda create -qy -n testenv python=3.5 nbval pytest lxml requests
 source activate testenv
 which python
 python --version
-conda install pydna
 
+#conda install pydna
+conda install -c BjornFJohansson/label/test pydna=2.0.0a3
 
 python run_test.py
