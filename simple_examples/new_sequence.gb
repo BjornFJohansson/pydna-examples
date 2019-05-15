@@ -1,7 +1,7 @@
-LOCUS       na                         9 bp    DNA     linear   UNK 29-NOV-2016
-DEFINITION  @
-ACCESSION   -
-VERSION     -
+LOCUS       name                       9 bp    DNA     linear   UNK 09-SEP-2018
+DEFINITION  description.
+ACCESSION   id
+VERSION     id
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .

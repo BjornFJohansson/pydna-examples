@@ -1,41 +1,41 @@
-LOCUS       pGreenLantern1          5032 bp    DNA     circular UNK 22-NOV-2016
-DEFINITION  @
-ACCESSION   -
-VERSION     -
+LOCUS       pGreenLantern1          5032 bp    DNA     circular UNK 09-SEP-2018
+DEFINITION  description.
+ACCESSION   id
+VERSION     id
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
      source          4314..5030
-                     /db_xref="taxon:32630"
-                     /mol_type="mRNA"
                      /organism="synthetic construct"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:32630"
      gene            4314..5030
                      /gene="GFP"
      CDS             4314..5030
-                     /codon_start=1
                      /gene="GFP"
                      /note="90 codons of this gene sequence, originally from
                      Aequorea victoria, have been altered to be more compatible
                      with human codon usage; the protein sequence of GFP remains
                      identical to that of A. victoria"
+                     /codon_start=1
+                     /transl_table=11
                      /product="green fluorescent protein"
                      /protein_id="AAB17129.1"
-                     /transl_table=11
                      /translation="MSKGEELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTLK
                      FICTTGKLPVPWPTLVTTFSYGVQCFSRYPDHMKQHDFFKSAMPEGYVQERTIFFKDDG
                      NYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYNSHNVYIMADKQKNGIKV
                      NFKIRHNIEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSALSKDPNEKRDHMVLLE
                      FVTAAGITHGMDELYK"
      primer_bind     4314..4334
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-                     /note="upstream_primer"
+                     /label="upstream_primer"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(5010..5030)
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-                     /note="downstream_primer"
+                     /label="downstream_primer"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
 ORIGIN
         1 ggccgctcta gcttgggatc tttgtgaagg aaccttactt ctgtggtgtg acataattgg
        61 acaaactacc tacagagatt taaagctcta aggtaaatat aaaattttta agtgtataat

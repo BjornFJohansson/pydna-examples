@@ -1,7 +1,7 @@
-LOCUS       na                      6623 bp    DNA     circular UNK 01-NOV-2016
-DEFINITION  @_SacI_XbaI
-ACCESSION   -
-VERSION     -
+LOCUS       name                    6623 bp    DNA     circular UNK 09-SEP-2018
+DEFINITION  description.
+ACCESSION   id
+VERSION     id
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .

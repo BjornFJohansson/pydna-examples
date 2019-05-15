@@ -1,26 +1,24 @@
-LOCUS       na                     11452 bp    DNA     circular UNK 29-NOV-2016
-DEFINITION  @
-ACCESSION   -
-VERSION     -
-DBLINK      BioProject:PRJNA128
-            Assembly:GCF_000146045.2
+LOCUS       name                   11452 bp    DNA     circular UNK 09-SEP-2018
+DEFINITION  description.
+ACCESSION   <unknown id>
+VERSION     <unknown id>
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
      regulatory      6..370
-                     /note="from Saccharomyces cerevisiae PGK1"
                      /regulatory_class="terminator"
+                     /note="from Saccharomyces cerevisiae PGK1"
      gene            428..1618
                      /gene="tet"
      CDS             428..1618
-                     /codon_start=1
                      /gene="tet"
                      /note="pBR322 marker"
+                     /codon_start=1
+                     /transl_table=11
                      /product="tetracyclin resistance protein"
                      /protein_id="AGE61866.1"
-                     /transl_table=11
                      /translation="MKSNNALIVILGTVTLDAVGIGLVMPVLPGLLRDIVHSDSIASHY
                      GVLLALYALMQFLCAPVLGALSDRFGRRPVLLASLLGATIDYAIMATTPVLWILYAGRI
                      VAGITGATGAVAGAYIADITDGEDRARHFGLMSACFGVGMVAGPVAGGLLGAISLHAPF
@@ -28,47 +26,32 @@ FEATURES             Location/Qualifiers
                      QLVGQVPAALWVIFGEDRFRWSATMIGLSLAVFGILHALAQAFVTGPATKRFGEKQAII
                      AGMAADALGYVLLAFATRGWMAFPIMILLASGGIGMPALQAMLSRQVDDDHQGQLQGSL
                      AALTSLTSITGPLIVTAIYAASASTWNGLAWIVGAALYLVCLPALRRGAWSRATST"
-     gene            complement(3637..4497)
-                     /gene="bla"
-     CDS             complement(3637..4497)
-                     /codon_start=1
-                     /gene="bla"
-                     /note="ampicillin resistance protein"
-                     /product="beta-lactamase"
-                     /protein_id="AGE61867.1"
-                     /transl_table=11
-                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYI
-                     ELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRVDAGQEQLGRRIHYSQNDLVEYS
-                     PVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRW
-                     EPELNEAIPNDERDTTMPAAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSA
-                     LPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGAS
-                     LIKHW"
      rep_origin      5232..6392
                      /note="2 micron origin"
      gene            7209..8012
                      /gene="URA3"
      CDS             7209..8012
-                     /codon_start=1
                      /gene="URA3"
+                     /codon_start=1
+                     /transl_table=11
                      /product="URA3"
                      /protein_id="AGE61868.1"
-                     /transl_table=11
                      /translation="MSKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELL
                      ELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQ
                      YSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGE
                      YTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDD
                      VVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQN"
      regulatory      8154..9636
-                     /note="from Saccharomyces cerevisiae PGK1"
                      /regulatory_class="promoter"
+                     /note="from Saccharomyces cerevisiae PGK1"
      primer_bind     9655..9669
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-                     /note="primer1"
+                     /label="primer1"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(11431..11451)
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-                     /note="primer3"
+                     /label="primer3"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
 ORIGIN
         1 gatctcccat gtctctactg gtggtggtgc ttctttggaa ttattggaag gtaaggaatt
        61 gccaggtgtt gctttcttat ccgaaaagaa ataaattgaa ttgaattgaa atcgatagat
