@@ -5,7 +5,7 @@ export PATH="$HOME/miniconda/bin:$PATH"
 rm Miniconda_latest.sh
 conda config --set always_yes yes --set show_channel_urls yes
 conda update conda
-conda config --add channels conda_forge
+conda config --add channels conda-forge
 conda config --add channels BjornFJohansson
 conda create -qy -n testenv python=3.7 nbval pytest lxml requests
 source activate testenv
