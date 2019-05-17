@@ -1,8 +1,10 @@
 name: mybinder_pydna
 channels:
 - defaults
+- conda_forge
 - BjornFJohansson
 dependencies:
 - python=3.5
 - pydna
 - lxml
+- pytest

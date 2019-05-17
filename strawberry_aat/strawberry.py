@@ -55,7 +55,7 @@ pYPKpw_lin = pYPKpw.linearize(ZraI)
 
 asm = Assembly( (pYPKpw_lin, p, g, t) )
 
-candidate = asm.assemble_circular[0]
+candidate = asm.assemble_circular()[0]
 
 pYPK0_TDH3_FaPDC_TEF1 = candidate.synced(pYPKa)
 

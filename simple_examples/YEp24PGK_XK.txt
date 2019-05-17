@@ -1,4 +1,4 @@
-LOCUS       name                   11452 bp    DNA     circular UNK 09-SEP-2018
+LOCUS       name                   11452 bp    DNA     circular UNK 01-JAN-1980
 DEFINITION  description.
 ACCESSION   <unknown id>
 VERSION     <unknown id>
@@ -26,6 +26,21 @@ FEATURES             Location/Qualifiers
                      QLVGQVPAALWVIFGEDRFRWSATMIGLSLAVFGILHALAQAFVTGPATKRFGEKQAII
                      AGMAADALGYVLLAFATRGWMAFPIMILLASGGIGMPALQAMLSRQVDDDHQGQLQGSL
                      AALTSLTSITGPLIVTAIYAASASTWNGLAWIVGAALYLVCLPALRRGAWSRATST"
+     gene            complement(3637..4497)
+                     /gene="bla"
+     CDS             complement(3637..4497)
+                     /gene="bla"
+                     /note="ampicillin resistance protein"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="beta-lactamase"
+                     /protein_id="AGE61867.1"
+                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYI
+                     ELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRVDAGQEQLGRRIHYSQNDLVEYS
+                     PVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRW
+                     EPELNEAIPNDERDTTMPAAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSA
+                     LPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGAS
+                     LIKHW"
      rep_origin      5232..6392
                      /note="2 micron origin"
      gene            7209..8012
