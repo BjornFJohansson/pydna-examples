@@ -1,7 +1,7 @@
-name: mybinder_pydna
+name: testenvironment
 channels:
 - defaults
-- conda_forge
+- conda-forge
 - BjornFJohansson
 dependencies:
 - python=3.7
