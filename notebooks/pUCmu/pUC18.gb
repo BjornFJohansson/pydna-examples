@@ -1,0 +1,128 @@
+LOCUS       SYNPUC18V               2686 bp    DNA     circular SYN 27-APR-1993
+DEFINITION  pUC18 cloning vector.
+ACCESSION   L08752
+VERSION     L08752.1
+KEYWORDS    .
+SOURCE      synthetic construct
+  ORGANISM  synthetic construct
+            other sequences; artificial sequences.
+REFERENCE   1
+  AUTHORS   Norrander,J., Kempe,T. and Messing,J.
+  TITLE     Construction of improved M13 vectors using
+            oligodeoxynucleotide-directed mutagenesis
+  JOURNAL   Gene 26 (1), 101-106 (1983)
+   PUBMED   6323249
+REFERENCE   2  (bases 1 to 2686)
+  AUTHORS   Gilbert,W.
+  TITLE     Obtained from VecBase 3.0
+  JOURNAL   Unpublished
+COMMENT     These data and their annotation were supplied to GenBank by Will
+            Gilbert under the auspices of the GenBank Currator Program. pUC18 -
+            Cloning vector
+            ENTRY PUC18                    #TYPE DNA CIRCULAR
+            TITLE pUC18 - Cloning vector
+            DATE      17-SEP-1986
+            #sequence  16-DEC-1986
+            ACCESSION VB0025
+            SOURCE    artificial
+            COLLECTION  ATCC 37253
+            REFERENCE
+            #number  1
+            #authors  Norrander J., Kempe T., Messing J.
+            #journal Gene (1983) 26: 101-106
+            REFERENCE
+            #number 2
+            #authors Pouwels P.H., Enger-Valk B.E., Brammar W.J.
+            #book    Cloning Vectors, Elsvier 1985 and supplements
+            #comment  vector I-A-iv-20
+            COMMENT
+            Assembled from pUC19 and M13mp18 by F. Pfeiffer, MPI,
+            Martinsried
+            Revised 16-DEC-1986 by F. Pfeiffer:
+            2308/9 'AT' to 'TA' to match revised sequence of PBR322
+            The strand shown contains the beta-galactosidase mRNA sequence
+            including the multiple cloning site of M13mp18. KEYWORDS
+            CROSSREFERENCE
+            #complement
+            VecBase(3):pUC18c
+            #parent
+            VecBase(3):pUC12, VecBase(3):M13mp18, VecSource(3):bGal18
+            #brother
+            VecBase(3):pUC19
+            #offspring
+            VecBase(3):pGEM3, VecBase(3):pTZ18R,
+            VecBase(3):pIBI24, VecBase(3):pIBI30, VecBase(3):pSP18,
+            VecBase(3):pT7T318, VecBase(3):pT7T3A18
+            PARENT
+            Features of pUC18 (2686 bp)
+            residue     source
+            1- 447  6002-6448      M13mp18
+            1- 229  1069-1297      Lac-Operon
+            230- 286     1-  57      polylinker of M13mp18
+            289- 447  1303-1461      Lac-Operon
+            448- 547  2351-2252  (c) pBR322
+            548- 684  2210-2074  (c) pBR322
+            685-2686  4355-2354  (c) pBR322
+            Conflict (cfl) and Mutations (mut):
+            pUC18  source
+            mut 1128 T  C 3912 (c) pBR322
+            mut 1429 A  G 3611 (c) pBR322
+            FEATURE
+            952-1740 1-789 Ap-R; b-lactamase
+            POLYLINKER  EcoRI-SacI-KpnI-SmaI-BamHI-XbaI-SalI-PstI-SphI-HindIII
+            SELECTION
+            #resistance  Ap
+            #indicator beta-galactosidase
+            SUMMARY  pUC18    #length 2686   #checksum 5464.
+FEATURES             Location/Qualifiers
+     source          1..2686
+                     /organism="synthetic construct"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:32630"
+ORIGIN
+        1 gcgcccaata cgcaaaccgc ctctccccgc gcgttggccg attcattaat gcagctggca
+       61 cgacaggttt cccgactgga aagcgggcag tgagcgcaac gcaattaatg tgagttagct
+      121 cactcattag gcaccccagg ctttacactt tatgcttccg gctcgtatgt tgtgtggaat
+      181 tgtgagcgga taacaatttc acacaggaaa cagctatgac catgattacg aattcgagct
+      241 cggtacccgg ggatcctcta gagtcgacct gcaggcatgc aagcttggca ctggccgtcg
+      301 ttttacaacg tcgtgactgg gaaaaccctg gcgttaccca acttaatcgc cttgcagcac
+      361 atcccccttt cgccagctgg cgtaatagcg aagaggcccg caccgatcgc ccttcccaac
+      421 agttgcgcag cctgaatggc gaatggcgcc tgatgcggta ttttctcctt acgcatctgt
+      481 gcggtatttc acaccgcata tggtgcactc tcagtacaat ctgctctgat gccgcatagt
+      541 taagccagcc ccgacacccg ccaacacccg ctgacgcgcc ctgacgggct tgtctgctcc
+      601 cggcatccgc ttacagacaa gctgtgaccg tctccgggag ctgcatgtgt cagaggtttt
+      661 caccgtcatc accgaaacgc gcgagacgaa agggcctcgt gatacgccta tttttatagg
+      721 ttaatgtcat gataataatg gtttcttaga cgtcaggtgg cacttttcgg ggaaatgtgc
+      781 gcggaacccc tatttgttta tttttctaaa tacattcaaa tatgtatccg ctcatgagac
+      841 aataaccctg ataaatgctt caataatatt gaaaaaggaa gagtatgagt attcaacatt
+      901 tccgtgtcgc ccttattccc ttttttgcgg cattttgcct tcctgttttt gctcacccag
+      961 aaacgctggt gaaagtaaaa gatgctgaag atcagttggg tgcacgagtg ggttacatcg
+     1021 aactggatct caacagcggt aagatccttg agagttttcg ccccgaagaa cgttttccaa
+     1081 tgatgagcac ttttaaagtt ctgctatgtg gcgcggtatt atcccgtatt gacgccgggc
+     1141 aagagcaact cggtcgccgc atacactatt ctcagaatga cttggttgag tactcaccag
+     1201 tcacagaaaa gcatcttacg gatggcatga cagtaagaga attatgcagt gctgccataa
+     1261 ccatgagtga taacactgcg gccaacttac ttctgacaac gatcggagga ccgaaggagc
+     1321 taaccgcttt tttgcacaac atgggggatc atgtaactcg ccttgatcgt tgggaaccgg
+     1381 agctgaatga agccatacca aacgacgagc gtgacaccac gatgcctgta gcaatggcaa
+     1441 caacgttgcg caaactatta actggcgaac tacttactct agcttcccgg caacaattaa
+     1501 tagactggat ggaggcggat aaagttgcag gaccacttct gcgctcggcc cttccggctg
+     1561 gctggtttat tgctgataaa tctggagccg gtgagcgtgg gtctcgcggt atcattgcag
+     1621 cactggggcc agatggtaag ccctcccgta tcgtagttat ctacacgacg gggagtcagg
+     1681 caactatgga tgaacgaaat agacagatcg ctgagatagg tgcctcactg attaagcatt
+     1741 ggtaactgtc agaccaagtt tactcatata tactttagat tgatttaaaa cttcattttt
+     1801 aatttaaaag gatctaggtg aagatccttt ttgataatct catgaccaaa atcccttaac
+     1861 gtgagttttc gttccactga gcgtcagacc ccgtagaaaa gatcaaagga tcttcttgag
+     1921 atcctttttt tctgcgcgta atctgctgct tgcaaacaaa aaaaccaccg ctaccagcgg
+     1981 tggtttgttt gccggatcaa gagctaccaa ctctttttcc gaaggtaact ggcttcagca
+     2041 gagcgcagat accaaatact gtccttctag tgtagccgta gttaggccac cacttcaaga
+     2101 actctgtagc accgcctaca tacctcgctc tgctaatcct gttaccagtg gctgctgcca
+     2161 gtggcgataa gtcgtgtctt accgggttgg actcaagacg atagttaccg gataaggcgc
+     2221 agcggtcggg ctgaacgggg ggttcgtgca cacagcccag cttggagcga acgacctaca
+     2281 ccgaactgag atacctacag cgtgagctat gagaaagcgc cacgcttccc gaagggagaa
+     2341 aggcggacag gtatccggta agcggcaggg tcggaacagg agagcgcacg agggagcttc
+     2401 cagggggaaa cgcctggtat ctttatagtc ctgtcgggtt tcgccacctc tgacttgagc
+     2461 gtcgattttt gtgatgctcg tcaggggggc ggagcctatg gaaaaacgcc agcaacgcgg
+     2521 cctttttacg gttcctggcc ttttgctggc cttttgctca catgttcttt cctgcgttat
+     2581 cccctgattc tgtggataac cgtattaccg cctttgagtg agctgatacc gctcgccgca
+     2641 gccgaacgac cgagcgcagc gagtcagtga gcgaggaagc ggaaga
+//
