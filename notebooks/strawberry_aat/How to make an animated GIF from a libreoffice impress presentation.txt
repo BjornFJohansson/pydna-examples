@@ -1,4 +1,0 @@
-1. export the saat.odp presentation as HTML
-2. choose GIF, High resolution
-3. use http://gifcreator.me
-4. choose 4500ms delay. less for the first one
